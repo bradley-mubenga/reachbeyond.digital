@@ -31,7 +31,7 @@ $white: #FFFFFF;
 //Global Style
 html
 {
-    overflow: hidden; /*CHANGE TO OVERFLOW X*/
+    overflow-x: hidden; /*CHANGE TO OVERFLOW X*/
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;

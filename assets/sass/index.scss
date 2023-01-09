@@ -1,0 +1,35 @@
+@use "../../style.scss";
+//
+#header
+{
+    color: style.$white;
+    background-color: style.$blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.5vh 5vw;
+    align-items: center;
+    nav
+    {
+        ul
+        {
+            display: flex;
+            align-items: center;
+            li
+            {
+                list-style-type: none;
+                padding: 0 1vw;
+                a
+                {
+                    color: white;
+                    text-decoration: none;
+                }
+                button
+                {
+                    background-color: style.$white;
+                    color: style.$blue;
+                }
+            }
+        }
+    }
+}
