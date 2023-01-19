@@ -1,10 +1,11 @@
 .navbar {
   background-color: #0063C9;
   display: flex;
-  padding: 1.25vh 2.5vw;
+  padding: 1.25vh 0vw;
+  width: 100%;
   align-items: center;
-  justify-content: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  position: fixed;
 }
 .navbar .toggleButton {
   display: none;
@@ -27,6 +28,10 @@
 }
 
 @media (max-width: 991px) {
+  .navbar {
+    position: fixed;
+    justify-content: space-around;
+  }
   .navbar .toggleButton {
     display: block;
     z-index: 10;
@@ -59,4 +64,7 @@
   .navbar .active {
     transform: translateX(0vw);
   }
+}
+.hideOrShow {
+  overflow-y: hidden;
 }/*# sourceMappingURL=header.css.map */
