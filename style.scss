@@ -11,19 +11,19 @@ Author URI: https://creativebradley.com/
 @font-face 
 {
     font-family: VisbyCF;
-    src: url("/assets/font/VisbyCF-Light.otf") format("opentype");
+    src: url("/wp-content/themes/reachbeyond-wp-template/assets/font/VisbyCF-Light.otf") format("opentype");
 }
 @font-face 
 {
     font-family: VisbyCF;
     font-weight: bold;
-    src: url("/assets/font/VisbyCF-Bold.otf") format("opentype");
+    src: url("/wp-content/themes/reachbeyond-wp-template/assets/font/VisbyCF-Bold.otf") format("opentype");
 }
 @font-face 
 {
     font-family: VisbyCF;
     font-weight: normal;
-    src: url("/assets/font/VisbyCF-Regular.otf") format("opentype");
+    src: url("/wp-content/themes/reachbeyond-wp-template/assets/font/VisbyCF-Regular.otf") format("opentype");
 }
 //Brand Colors
 $blue: #0063C9;
@@ -31,7 +31,7 @@ $white: #FFFFFF;
 //Global Style
 html
 {
-    overflow-x: hidden; /*CHANGE TO OVERFLOW X*/
+    overflow-x: hidden;
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
@@ -40,4 +40,14 @@ html
 a
 {
     color: $blue;
+}
+h1
+{
+    margin: 0;
+    padding: 0;
+}
+h2 
+{
+    margin: 0;
+    padding: 0;
 }

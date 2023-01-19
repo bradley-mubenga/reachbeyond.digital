@@ -33,7 +33,7 @@ a {
   color: #0063C9;
 }
 
-#header {
+.header {
   color: #FFFFFF;
   background-color: #0063C9;
   display: flex;
@@ -42,19 +42,20 @@ a {
   padding: 1.5vh 5vw;
   align-items: center;
 }
-#header nav ul {
+.header nav ul {
   display: flex;
   align-items: center;
 }
-#header nav ul li {
+.header nav ul li {
   list-style-type: none;
   padding: 0 1vw;
 }
-#header nav ul li a {
+.header nav ul li a {
   color: white;
   text-decoration: none;
 }
-#header nav ul li button {
+.header nav ul li a.whiteButton {
   background-color: #FFFFFF;
+  padding: 0.7em 0.7em;
   color: #0063C9;
 }/*# sourceMappingURL=index.css.map */

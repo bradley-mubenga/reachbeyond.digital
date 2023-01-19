@@ -1,0 +1,90 @@
+//Brand Colors
+$blue: #0063C9;
+$white: #FFFFFF;
+//Header
+.navbar
+{
+    background-color: $blue;
+    display: flex;
+    padding: 1.25vh 2.5vw;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    .toggleButton
+    {
+        display: none;
+    }
+    .navbarLinks
+    {
+        ul 
+        {
+            display: flex;
+            flex-direction: row;
+            li
+            {
+                list-style: none;
+                padding: 1vh 1vw;
+                a
+                {
+                    color: $white;
+                    text-decoration: none;
+                    transition: opacity 0.2s ease-in-out;
+                }
+                a:hover
+                {
+                    opacity: 0.75;
+                }
+                .whiteCTA
+                {
+                    color: $blue;
+                    background-color: $white;
+                    padding: 1.5vh 2vw;
+                }
+            }
+        }
+    }
+}
+//RESPONSIVE FUNCTIONALITY
+@media (max-width: 800px)
+{
+    .navbar
+    {
+        .toggleButton
+        {
+            display: block;
+            z-index: 10;
+            top:0;
+            right: 0;
+        }
+        .navbarLinks
+        {
+            display: block;
+            z-index: 7;
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top:0;
+            height: 100vh;
+            background-color: $blue;
+            transform: translateX(100vw);
+            transition: transform 0.5s ease-in-out;
+            ul
+            {
+                margin: 0;
+                padding: 0;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                li 
+                {
+                    padding: 3vh 1vw;
+                }
+            }
+        }
+        .active
+        {
+            transform: translateX(0vw);
+        }
+    }
+}
