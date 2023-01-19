@@ -25,13 +25,8 @@
 .navbar .navbarLinks ul li a:hover {
   opacity: 0.75;
 }
-.navbar .navbarLinks ul li .whiteCTA {
-  color: #0063C9;
-  background-color: #FFFFFF;
-  padding: 1.5vh 2vw;
-}
 
-@media (max-width: 800px) {
+@media (max-width: 991px) {
   .navbar .toggleButton {
     display: block;
     z-index: 10;

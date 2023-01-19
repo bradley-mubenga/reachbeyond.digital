@@ -1,0 +1,23 @@
+.heroSection {
+  background-image: url("/wp-content/themes/reachbeyond-wp-template/assets/images/background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 0 7vw;
+}
+.heroSection div {
+  color: white;
+}
+.heroSection .callToAction {
+  display: flex;
+  justify-content: start;
+}
+.heroSection .callToAction span {
+  padding: 0.5rem;
+}/*# sourceMappingURL=home.css.map */

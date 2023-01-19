@@ -34,18 +34,12 @@ $white: #FFFFFF;
                 {
                     opacity: 0.75;
                 }
-                .whiteCTA
-                {
-                    color: $blue;
-                    background-color: $white;
-                    padding: 1.5vh 2vw;
-                }
             }
         }
     }
 }
 //RESPONSIVE FUNCTIONALITY
-@media (max-width: 800px)
+@media (max-width: 991px)
 {
     .navbar
     {

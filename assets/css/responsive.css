@@ -1,1 +1,75 @@
-/*# sourceMappingURL=responsive.css.map */
+@media (max-width: 575px) {
+  h1 {
+    font-size: 10vw !important;
+  }
+  h2 {
+    font-size: 7vw !important;
+    font-weight: normal !important;
+  }
+  p {
+    font-size: 4vw !important;
+  }
+  a {
+    font-size: 4vw !important;
+  }
+}
+@media (min-width: 576px) {
+  h1 {
+    font-size: 10vw !important;
+  }
+  h2 {
+    font-size: 7vw;
+    font-weight: normal !important;
+  }
+  p {
+    font-size: 2.5vw !important;
+  }
+  a {
+    font-size: 2.5vw !important;
+  }
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 8vw !important;
+  }
+  h2 {
+    font-size: 5vw;
+    font-weight: normal !important;
+  }
+  p {
+    font-size: 2.5vw !important;
+  }
+  a {
+    font-size: 2.5vw !important;
+  }
+}
+@media (min-width: 992px) {
+  h1 {
+    font-size: 7vw !important;
+  }
+  h2 {
+    font-size: 4vw;
+    font-weight: normal !important;
+  }
+  p {
+    font-size: 1.7vw !important;
+  }
+  a {
+    font-size: 1.7vw !important;
+  }
+}
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 6vw !important;
+  }
+  h2 {
+    font-size: 4vw !important;
+    font-weight: normal !important;
+  }
+  p {
+    font-size: 1.5vw !important;
+  }
+  a {
+    font-size: 1.5vw !important;
+  }
+}/*# sourceMappingURL=responsive.css.map */

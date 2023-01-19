@@ -11,6 +11,7 @@ Author URI: https://creativebradley.com/
 @font-face 
 {
     font-family: VisbyCF;
+    font-weight: light;
     src: url("/wp-content/themes/reachbeyond-wp-template/assets/font/VisbyCF-Light.otf") format("opentype");
 }
 @font-face 
@@ -40,6 +41,7 @@ html
 a
 {
     color: $blue;
+    text-decoration: none;
 }
 h1
 {
@@ -50,4 +52,17 @@ h2
 {
     margin: 0;
     padding: 0;
+}
+a.whiteCTA
+{
+    color: $blue !important;
+    background-color: $white;
+    padding: 1.5vh 2vw;
+}
+a.whiteLinedCTA
+{
+    color: $white;
+    background-color: transparent;
+    padding: 1.25vh 2vw;
+    border: 0.25vh solid $white;
 }
