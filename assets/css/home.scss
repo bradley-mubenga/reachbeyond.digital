@@ -1,3 +1,7 @@
+//Brand Colors
+$blue: #0063C9;
+$white: #FFFFFF;
+//HERO SECTION
 .heroSection
 {
     background-image: url("/wp-content/themes/reachbeyond-wp-template/assets/images/background.webp");
@@ -22,6 +26,286 @@
         span
         {
             padding: 0.5rem;
+        }
+    }
+}
+//WHO WE ARE SECTION
+.whoWeAreSection
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-items: center;
+    padding: 4vh 7vw;
+    div
+    {
+        h2
+        {
+            font-weight: bold !important;
+            color: $blue;
+        }
+        .callToActionDiv
+        {
+            padding: 2vh 0;
+        }
+    }
+    .servicesIcons
+    {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+        .iconBlock
+        {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            div
+            {
+                padding: 2vh 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-items: center;
+                text-align: center;
+                p
+                {
+                    color: $blue;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+//WHAT WE DO SECTION
+.whatWeDoSection
+{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    align-items: center;
+    justify-items: center;
+    padding: 4vh 7vw;
+    grid-gap: 2rem;
+    div
+    {
+        h2
+        {
+            font-weight: bold !important;
+            color: $blue;
+        }
+        .callToActionDiv
+        {
+            padding: 2vh 0;
+        }
+    }
+}
+//CASE STUDY SECTION
+.caseStudySection
+{
+    padding: 4vh 7vw;
+    background-color: $blue;
+    color: $white;
+    text-align: center;
+    h2 
+    {
+        font-weight: bold !important;
+    }
+    .caseStudyCards
+    {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-gap: 1rem;
+        justify-items: center;
+        h3
+        {
+            color: $blue;
+            font-weight: bold !important;
+            margin: 0;
+        }
+        p
+        {
+            color: black;
+            padding-bottom: 2vh;
+        }
+        div
+        {
+            background-color: $white;
+            padding: 2.5vh 2vw;
+            .caseStudyExerptText
+            {
+                padding: 2.5vh 0;
+            }
+        }
+    }
+}
+//CLIENT LOGO SECTION
+@keyframes scroll {
+    0%
+    {
+        transform: translateX(100vw);
+    }
+    100%
+    {
+        transform: translateX(calc(-100vw));
+    }
+}
+.clientSliderSection
+{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 4vh 7vw;
+    color: $blue;
+    overflow: hidden;
+    text-align: center;
+    z-index: -10;
+    h2 
+    {
+        font-weight: bold !important;
+    }
+    .slideTrack
+    {
+        animation: scroll 8s linear infinite;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2vh 0;
+        transition: transform 0.5s ease-in-out;
+        .slide
+        {
+            padding: 0 5vw;
+            .logo
+            {
+                width: 250px !important;
+                height: auto;
+            }
+        }
+    }
+}
+//CONTACT CTA
+.contactCTA
+{
+    padding: 4vh 7vw;
+    background-color: $blue;
+    color: $white;
+    grid-template-columns: 100%;
+    text-align: center;
+    div
+    {
+        h2
+        {
+            font-weight: bold !important;
+        }
+        .contactCTADIV
+        {
+            padding: 2vh 0;
+            text-align: center;
+        }
+    }
+}
+//
+.footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 4vh 7vw;
+    justify-items: center;
+    align-items: center;
+    .logoBottom
+    {
+        max-width: 150px;
+    }
+    .footerText
+    {
+        p 
+        {
+            color: black !important;
+            margin: 0;
+            padding: 0.5vh 0;
+        }
+    }
+    .footerLinks
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: center;
+        h2 
+        {
+            color: $blue;
+            font-weight: bold !important;
+        }
+        div
+        {
+            display: flex;
+            flex-direction: column;
+            a 
+            {
+                cursor: pointer;
+                padding: 0.5vh 0;
+                color: black !important;
+                color: $blue !important;
+            }
+            a:hover
+            {
+                color: $blue !important;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+
+
+////////////
+//RESPONSIVE
+@media (max-width: 990px)
+{
+    .whoWeAreSection
+    {
+        grid-template-columns: 100%;
+        text-align: center;
+        grid-gap: 1.5rem;
+        .servicesIcons
+        {
+            grid-template-columns: 50% 50%;
+            grid-gap: 0;
+            .iconBlock
+            {
+                border: none;
+            }
+        }
+    }
+    .whatWeDoSection
+    {
+        grid-template-columns: 100%;
+    }
+    .caseStudySection
+    {
+        text-align: center;
+        .caseStudyCards
+        {
+            grid-template-columns: 100% !important;
+            div
+            {
+                padding: 2.5vh 4vw;
+                .caseStudyExerptText
+                {
+                    text-align: left;
+                }
+            }
+        }
+    }
+    .footer
+    {
+        grid-template-columns: 100%;
+        div
+        {
+            text-align: center;
+        }
+        .footerLinks
+        {
+            text-align: center;
         }
     }
 }

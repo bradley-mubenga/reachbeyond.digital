@@ -12,7 +12,7 @@
 <header>
     <nav class="navbar">
         <div class="brandTitle">
-            <a class="navbarBrand" href="#">
+            <a class="navbarBrand" href="/">
                 <?php
                     if (function_exists('the_custom_logo')){
                         $custom_logo_id = get_theme_mod('custom_logo');
@@ -30,16 +30,16 @@
         <div class="navbarLinks navbarLinksActive" id="navbarLinks">
             <ul>
                 <li>
-                    <a href="#">Who We Are</a>
+                    <a href="/who-we-are">Who We Are</a>
                 </li>
                 <li>
-                    <a href="#">What We Do</a>
+                    <a href="/what-we-do">What We Do</a>
                 </li>
                 <li>
-                    <a href="#">Case Studies</a>
+                    <a href="/case-study">Case Studies</a>
                 </li>
                 <li>
-                    <a href="#" class="whiteCTA">Contact Us</a>
+                    <a href="/contact" class="whiteCTA">Contact Us</a>
                 </li>
             </ul>
         </div>

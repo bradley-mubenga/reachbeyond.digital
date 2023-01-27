@@ -20,4 +20,232 @@
 }
 .heroSection .callToAction span {
   padding: 0.5rem;
+}
+
+.whoWeAreSection {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  justify-items: center;
+  padding: 4vh 7vw;
+}
+.whoWeAreSection div h2 {
+  font-weight: bold !important;
+  color: #0063C9;
+}
+.whoWeAreSection div .callToActionDiv {
+  padding: 2vh 0;
+}
+.whoWeAreSection .servicesIcons {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+.whoWeAreSection .servicesIcons .iconBlock {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.whoWeAreSection .servicesIcons .iconBlock div {
+  padding: 2vh 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+.whoWeAreSection .servicesIcons .iconBlock div p {
+  color: #0063C9;
+  font-weight: bold;
+}
+
+.whatWeDoSection {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  align-items: center;
+  justify-items: center;
+  padding: 4vh 7vw;
+  grid-gap: 2rem;
+}
+.whatWeDoSection div h2 {
+  font-weight: bold !important;
+  color: #0063C9;
+}
+.whatWeDoSection div .callToActionDiv {
+  padding: 2vh 0;
+}
+
+.caseStudySection {
+  padding: 4vh 7vw;
+  background-color: #0063C9;
+  color: #FFFFFF;
+  text-align: center;
+}
+.caseStudySection h2 {
+  font-weight: bold !important;
+}
+.caseStudySection .caseStudyCards {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 1rem;
+  justify-items: center;
+}
+.caseStudySection .caseStudyCards h3 {
+  color: #0063C9;
+  font-weight: bold !important;
+  margin: 0;
+}
+.caseStudySection .caseStudyCards p {
+  color: black;
+  padding-bottom: 2vh;
+}
+.caseStudySection .caseStudyCards div {
+  background-color: #FFFFFF;
+  padding: 2.5vh 2vw;
+}
+.caseStudySection .caseStudyCards div .caseStudyExerptText {
+  padding: 2.5vh 0;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-100vw);
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-100vw);
+  }
+}
+.clientSliderSection {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 4vh 7vw;
+  color: #0063C9;
+  overflow: hidden;
+  text-align: center;
+  z-index: -10;
+}
+.clientSliderSection h2 {
+  font-weight: bold !important;
+}
+.clientSliderSection .slideTrack {
+  -webkit-animation: scroll 8s linear infinite;
+          animation: scroll 8s linear infinite;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2vh 0;
+  transition: transform 0.5s ease-in-out;
+}
+.clientSliderSection .slideTrack .slide {
+  padding: 0 5vw;
+}
+.clientSliderSection .slideTrack .slide .logo {
+  width: 250px !important;
+  height: auto;
+}
+
+.contactCTA {
+  padding: 4vh 7vw;
+  background-color: #0063C9;
+  color: #FFFFFF;
+  grid-template-columns: 100%;
+  text-align: center;
+}
+.contactCTA div h2 {
+  font-weight: bold !important;
+}
+.contactCTA div .contactCTADIV {
+  padding: 2vh 0;
+  text-align: center;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 4vh 7vw;
+  justify-items: center;
+  align-items: center;
+}
+.footer .logoBottom {
+  max-width: 150px;
+}
+.footer .footerText p {
+  color: black !important;
+  margin: 0;
+  padding: 0.5vh 0;
+}
+.footer .footerLinks {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+}
+.footer .footerLinks h2 {
+  color: #0063C9;
+  font-weight: bold !important;
+}
+.footer .footerLinks div {
+  display: flex;
+  flex-direction: column;
+}
+.footer .footerLinks div a {
+  cursor: pointer;
+  padding: 0.5vh 0;
+  color: black !important;
+  color: #0063C9 !important;
+}
+.footer .footerLinks div a:hover {
+  color: #0063C9 !important;
+  text-decoration: underline;
+}
+
+@media (max-width: 990px) {
+  .whoWeAreSection {
+    grid-template-columns: 100%;
+    text-align: center;
+    grid-gap: 1.5rem;
+  }
+  .whoWeAreSection .servicesIcons {
+    grid-template-columns: 50% 50%;
+    grid-gap: 0;
+  }
+  .whoWeAreSection .servicesIcons .iconBlock {
+    border: none;
+  }
+  .whatWeDoSection {
+    grid-template-columns: 100%;
+  }
+  .caseStudySection {
+    text-align: center;
+  }
+  .caseStudySection .caseStudyCards {
+    grid-template-columns: 100% !important;
+  }
+  .caseStudySection .caseStudyCards div {
+    padding: 2.5vh 4vw;
+  }
+  .caseStudySection .caseStudyCards div .caseStudyExerptText {
+    text-align: left;
+  }
+  .footer {
+    grid-template-columns: 100%;
+  }
+  .footer div {
+    text-align: center;
+  }
+  .footer .footerLinks {
+    text-align: center;
+  }
 }/*# sourceMappingURL=home.css.map */

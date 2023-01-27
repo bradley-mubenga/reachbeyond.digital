@@ -1,3 +1,15 @@
+.responsiveIcon
+{
+    width: 100%;
+    max-width: 75px;
+    height: auto;
+}
+.responsiveImage
+{
+    width: 100%;
+    height: auto;
+}
+
 @media (max-width: 575px) 
 {
     h1
@@ -7,6 +19,11 @@
     h2
     {
         font-size: 7vw !important;
+        font-weight: normal !important;
+    }
+    h3
+    {
+        font-size: 4vw !important;
         font-weight: normal !important;
     }
     p 
@@ -30,6 +47,11 @@
         font-size: 7vw;
         font-weight: normal !important;
     }
+    h3
+    {
+        font-size: 4vw !important;
+        font-weight: normal !important;
+    }
     p 
     {
         font-size: 2.5vw !important;
@@ -49,6 +71,11 @@
     h2
     {
         font-size: 5vw;
+        font-weight: normal !important;
+    }
+    h3
+    {
+        font-size: 3vw !important;
         font-weight: normal !important;
     }
     p 
@@ -72,6 +99,11 @@
         font-size: 4vw;
         font-weight: normal !important;
     }
+    h3
+    {
+        font-size: 2vw !important;
+        font-weight: normal !important;
+    }
     p 
     {
         font-size: 1.7vw !important;
@@ -91,6 +123,11 @@
     h2
     {
         font-size: 4vw !important;
+        font-weight: normal !important;
+    }
+    h3
+    {
+        font-size: 2vw !important;
         font-weight: normal !important;
     }
     p 

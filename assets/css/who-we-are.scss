@@ -1,0 +1,177 @@
+//Brand Colors
+$blue: #0063C9;
+$white: #FFFFFF;
+//HERO SECTION - FOR ALL TEMPLATES
+.heroTemplate
+{
+    background-image: url("/wp-content/themes/reachbeyond-wp-template/assets/images/background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 0 7vw;
+    p 
+    {
+        color: $white;
+        font-weight: bold;
+    }
+    h1 
+    {
+        color: $white;
+    }
+}
+//CORE VALUES SECTION
+.coreValuesSection
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    align-items: center;
+    padding: 4vh 7vw;
+    div
+    {
+        h2
+        {
+            color: $blue;
+            font-weight: bold !important;
+        }
+    }
+}
+//TEAM SECTION
+.meetOurTeamSection
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: $blue;
+    padding: 4vh 5vw;
+    h2
+    {
+        font-weight: bold !important;
+        color: $white;
+    }
+    .teamPictures
+    {
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        grid-gap: 3rem 0;
+        padding: 4vh 0;
+        align-items: center;
+        justify-content: center;
+        div
+        {
+            text-align: center;
+            color: $white;
+            p
+            {
+                margin: 0;
+            }
+            :nth-child(2)
+            {
+                font-weight: bold !important;
+                padding: 1vh 0;
+            }
+            :nth-child(4)
+            {
+                font-style: italic;
+            }
+            .teamPicture
+            {
+                max-width: 250px;
+                border-radius: 100%;
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
+
+.founderSection
+{
+    padding: 4vh 7vw;
+    text-align: center;
+    h2
+    {
+        color: $blue;
+        font-weight: bold !important;
+    }
+    .founderSectionDiv
+    {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        text-align: start;
+        padding: 4vh 0;
+        grid-gap: 0 2rem;
+        .imageAndSignature
+        {
+            text-align: center;
+            .signatureImage
+            {
+                padding: 4vh 0;
+                max-width: 250px;
+            }
+        }
+        .founderText
+        {
+            p:nth-child(1)
+            {
+                margin-top: 0;
+            }
+        }
+    }
+}
+.whoCallToAction
+{
+    display: flex;  
+    padding: 4vh 7vw;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+    background-color: $blue;
+    text-align: center;
+    h2
+    {
+        color: $white;
+        font-weight: bold !important;
+    }
+    p
+    {
+        color: $white;
+        padding-bottom: 2vh;
+    }
+}
+
+////////////
+//RESPONSIVE
+@media (max-width: 990px)
+{
+    .coreValuesSection
+    {
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    .meetOurTeamSection
+    {
+        .teamPictures
+        {
+            grid-template-columns: 100%;
+        }
+    }
+    .founderSection
+    {
+        .founderSectionDiv
+        {
+            padding-bottom: 0;
+            grid-template-columns: 100%;
+        }
+        .founderText
+        {
+            text-align: center;
+        }
+    }
+}

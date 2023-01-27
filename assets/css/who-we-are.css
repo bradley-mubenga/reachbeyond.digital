@@ -1,0 +1,133 @@
+.heroTemplate {
+  background-image: url("/wp-content/themes/reachbeyond-wp-template/assets/images/background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 65vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 0 7vw;
+}
+.heroTemplate p {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.heroTemplate h1 {
+  color: #FFFFFF;
+}
+
+.coreValuesSection {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+  align-items: center;
+  padding: 4vh 7vw;
+}
+.coreValuesSection div h2 {
+  color: #0063C9;
+  font-weight: bold !important;
+}
+
+.meetOurTeamSection {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #0063C9;
+  padding: 4vh 5vw;
+}
+.meetOurTeamSection h2 {
+  font-weight: bold !important;
+  color: #FFFFFF;
+}
+.meetOurTeamSection .teamPictures {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-gap: 3rem 0;
+  padding: 4vh 0;
+  align-items: center;
+  justify-content: center;
+}
+.meetOurTeamSection .teamPictures div {
+  text-align: center;
+  color: #FFFFFF;
+}
+.meetOurTeamSection .teamPictures div p {
+  margin: 0;
+}
+.meetOurTeamSection .teamPictures div :nth-child(2) {
+  font-weight: bold !important;
+  padding: 1vh 0;
+}
+.meetOurTeamSection .teamPictures div :nth-child(4) {
+  font-style: italic;
+}
+.meetOurTeamSection .teamPictures div .teamPicture {
+  max-width: 250px;
+  border-radius: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.founderSection {
+  padding: 4vh 7vw;
+  text-align: center;
+}
+.founderSection h2 {
+  color: #0063C9;
+  font-weight: bold !important;
+}
+.founderSection .founderSectionDiv {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  text-align: start;
+  padding: 4vh 0;
+  grid-gap: 0 2rem;
+}
+.founderSection .founderSectionDiv .imageAndSignature {
+  text-align: center;
+}
+.founderSection .founderSectionDiv .imageAndSignature .signatureImage {
+  padding: 4vh 0;
+  max-width: 250px;
+}
+.founderSection .founderSectionDiv .founderText p:nth-child(1) {
+  margin-top: 0;
+}
+
+.whoCallToAction {
+  display: flex;
+  padding: 4vh 7vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0063C9;
+  text-align: center;
+}
+.whoCallToAction h2 {
+  color: #FFFFFF;
+  font-weight: bold !important;
+}
+.whoCallToAction p {
+  color: #FFFFFF;
+  padding-bottom: 2vh;
+}
+
+@media (max-width: 990px) {
+  .coreValuesSection {
+    grid-template-columns: 100%;
+    text-align: center;
+  }
+  .meetOurTeamSection .teamPictures {
+    grid-template-columns: 100%;
+  }
+  .founderSection .founderSectionDiv {
+    padding-bottom: 0;
+    grid-template-columns: 100%;
+  }
+  .founderSection .founderText {
+    text-align: center;
+  }
+}/*# sourceMappingURL=who-we-are.css.map */

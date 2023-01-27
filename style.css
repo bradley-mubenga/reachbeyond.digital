@@ -1,7 +1,7 @@
 /*
 Theme Name: Reach Beyond
 Text Domain: Reach Beyond
-Version: 1.0
+Version: 1.1
 Description: Tailored WordPress theme for digital marketing agency.
 Tags: Digital marketing agency, responsive, business website.
 Author: Bradley Mubenga
@@ -56,4 +56,11 @@ a.whiteLinedCTA {
   background-color: transparent;
   padding: 1.25vh 2vw;
   border: 0.25vh solid #FFFFFF;
+}
+
+a.blueLinedCTA {
+  color: #0063C9;
+  background-color: #FFFFFF;
+  padding: 1.25vh 2vw;
+  border: 0.25vh solid #0063C9;
 }/*# sourceMappingURL=style.css.map */

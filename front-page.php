@@ -18,9 +18,9 @@
             <p><?php echo $hero['paragraph']?></p>
         </div>
         <div class="callToAction">
-            <a href="#" class="whiteCTA">Contact Us</a>
+            <a href="/contact" class="whiteCTA">Contact Us</a>
             <span></span>
-            <a href="#" class="whiteLinedCTA">Learn More</a>
+            <a href="/what-we-do" class="whiteLinedCTA">Learn More</a>
         </div>
     </section>
 
@@ -30,34 +30,18 @@
             <p><?php echo $who['paragraph_1']?></p>
             <p><?php echo $who['paragraph_2']?></p>
             <div class="callToActionDiv">
-                <a href="/bradley.php" class="blueLinedCTA">Learn More</a>
+                <a href="/what-we-do" class="blueLinedCTA">What We Do</a>
             </div>
         </div>
         <div class="servicesIcons">
-            <div class="iconBlock">
-                <div>
-                    <img src="/wp-content/themes/reachbeyond-wp-template/assets/images/paid-ads.png" class="responsiveIcon"/>
-                    <p><?php echo $who['service_1']?></p>
+            <?php foreach( $who['services'] as $image ): ?>
+                <div class="iconBlock">
+                    <div>
+                        <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="responsiveIcon"/>
+                        <p><?php echo esc_html($image['title']); ?></p>
+                    </div>
                 </div>
-            </div>
-            <div class="iconBlock">
-                <div>
-                    <img src="/wp-content/themes/reachbeyond-wp-template/assets/images/analysis.png" class="responsiveIcon"/>
-                    <p><?php echo $who['service_2']?></p>
-                </div>
-            </div>
-            <div class="iconBlock">
-                <div>
-                    <img src="/wp-content/themes/reachbeyond-wp-template/assets/images/analytics.png" class="responsiveIcon"/>
-                    <p><?php echo $who['service_3']?></p>
-                </div>
-            </div class="iconBlock">
-            <div class="iconBlock">
-                <div>
-                    <img src="/wp-content/themes/reachbeyond-wp-template/assets/images/illustration.png" class="responsiveIcon"/>
-                    <p><?php echo $who['service_4']?></p>
-                </div>
-            </div>
+            <?php endforeach; ?>
         </div>
     </section>
 
@@ -71,7 +55,7 @@
             <p><?php echo $what['paragraph_1']?></p>
             <p><?php echo $what['paragraph_2']?></p>
             <div class="callToActionDiv">
-                <a href="/bradley.php" class="blueLinedCTA">Learn More</a>
+                <a href="/who-we-are" class="blueLinedCTA">Who We Are</a>
             </div>
         </div>
     </section>
@@ -94,8 +78,7 @@
                     <?php endif;?>
                     <div class="caseStudyExerptText">
                         <h3><?php echo the_title()?></h3>
-                        <p><?php the_excerpt()?></p>
-                        <span></span>
+                        <?php the_excerpt()?>
                         <a class="blueLinedCTA">Learn More</a>
                     </div>
                 </div>
@@ -116,15 +99,7 @@
         </div>
     </section>
 
-    <section class="contactCTA">
-        <div>
-            <h2><?php echo $formCTA['heading']?></h2>
-            <p><?php echo $formCTA['paragraph']?></p>
-            <div class="contactCTADIV">
-                <a href="#" class="blueLinedCTA">Contact Us</a>
-            </div>
-        </div>
-    </section>
+    <?php get_template_part('template-parts/contact', 'cta')?>
 
     <footer class="footer">
         <div>
@@ -142,15 +117,7 @@
                 </a>
             </div>
         </div>
-        <div class="footerLinks">
-            <h2>Navigate</h2>
-            <div>
-                <a>Who We Are</a>
-                <a>What We Do</a>
-                <a>Case Studies</a>
-                <a>Contact Us</a>
-            </div>
-        </div>
+        <?php get_template_part('template-parts/footer', 'links')?>
     </footer>
 <?php endif?>
 
