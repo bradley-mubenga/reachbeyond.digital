@@ -1,0 +1,17 @@
+.contactFormSection {
+  display: grid;
+  padding: 4vh 7vw;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  background-color: #0063C9;
+  color: #FFFFFF;
+}
+.contactFormSection div h2 {
+  font-weight: bold !important;
+}
+
+@media (max-width: 990px) {
+  .contactFormSection {
+    grid-template-columns: 100%;
+  }
+}/*# sourceMappingURL=contact-page.css.map */

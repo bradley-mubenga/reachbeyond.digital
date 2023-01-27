@@ -8,8 +8,6 @@
     $what = get_field('what_we_do');
     $case = get_field('case_study_section');
     $client = get_field('client_images_section');
-    $formCTA = get_field('conctact_cta');
-    $footer = get_field('footer');
     if($hero):
 ?>
     <section class="heroSection" id="hero">
@@ -79,7 +77,7 @@
                     <div class="caseStudyExerptText">
                         <h3><?php echo the_title()?></h3>
                         <?php the_excerpt()?>
-                        <a class="blueLinedCTA">Learn More</a>
+                        <a href="<?php the_permalink()?>" class="blueLinedCTA">Learn More</a>
                     </div>
                 </div>
             <?php endwhile; else: endif;?>
@@ -101,24 +99,6 @@
 
     <?php get_template_part('template-parts/contact', 'cta')?>
 
-    <footer class="footer">
-        <div>
-            <?php $logo = $footer['logo']?>
-            <img src="<?php echo esc_url($logo['url']); ?>" class="responsiveImage logoBottom" />
-            <div class="footerText">
-                <p><?php echo $footer['address']?></p>
-                <?php 
-                    $number = $footer['phone_number'];
-                    $link_url = $number['url'];
-                    $link_title = $number['title'];
-                ?>
-                <a href="<?php echo esc_url($link_url); ?>">
-                    <p><?php echo esc_html($link_title); ?></p>
-                </a>
-            </div>
-        </div>
-        <?php get_template_part('template-parts/footer', 'links')?>
-    </footer>
 <?php endif?>
 
 <?php

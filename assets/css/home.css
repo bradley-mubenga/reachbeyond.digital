@@ -226,6 +226,7 @@
   }
   .whatWeDoSection {
     grid-template-columns: 100%;
+    text-align: center;
   }
   .caseStudySection {
     text-align: center;

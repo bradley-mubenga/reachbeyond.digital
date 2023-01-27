@@ -1,0 +1,88 @@
+//Brand Colors
+$blue: #0063C9;
+$white: #FFFFFF;
+//CASE STUDY SECTION
+.caseStudyArchiveSection
+{
+    padding: 0vh 7vw;
+    padding-top: 17vh;
+    padding-bottom: 5vh;
+    background-color: $white;
+    color: $blue;
+    text-align: center;
+    h2 
+    {
+        font-weight: bold !important;
+    }
+    .caseStudyCards
+    {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-gap: 1rem;
+        justify-items: center;
+        h3
+        {
+            color: $blue;
+            font-weight: bold !important;
+            margin: 0;
+        }
+        p
+        {
+            color: black;
+            padding-bottom: 2vh;
+        }
+        .caseStudyCard
+        {
+            border: 0.15rem solid $blue;
+        }
+        div
+        {
+            background-color: $white;
+            padding: 2.5vh 2vw;
+            .caseStudyExerptText
+            {
+                padding: 2.5vh 0;
+            }
+        }
+    }
+}
+.singlePost
+{
+    padding: 0vh 7vw;
+    padding-top: 17vh;
+    padding-bottom: 5vh;
+    h2
+    {
+        font-weight: bold !important;
+    }
+    figure
+    {
+        text-align: center;
+        img
+        {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+////////////
+//RESPONSIVE
+@media (max-width: 990px)
+{
+    .caseStudyArchiveSection
+    {
+        text-align: center;
+        .caseStudyCards
+        {
+            grid-template-columns: 100% !important;
+            div
+            {
+                padding: 2.5vh 4vw;
+                .caseStudyExerptText
+                {
+                    text-align: left;
+                }
+            }
+        }
+    }
+}

@@ -20,6 +20,9 @@ function reachbeyond_register_styles() {
     wp_enqueue_style('header_style', get_template_directory_uri() . "/assets/css/header.css", array(), $version, 'all');
     wp_enqueue_style('home_page_style', get_template_directory_uri() . "/assets/css/home.css", array(), $version, 'all');
     wp_enqueue_style('who_we_are_page_style', get_template_directory_uri() . "/assets/css/who-we-are.css", array(), $version, 'all');
+    wp_enqueue_style('what_we_do_page_style', get_template_directory_uri() . "/assets/css/what-we-do.css", array(), $version, 'all');
+    wp_enqueue_style('contact_page_style', get_template_directory_uri() . "/assets/css/contact-page.css", array(), $version, 'all');
+    wp_enqueue_style('case_study_archive_style', get_template_directory_uri() . "/assets/css/case-studies.css", array(), $version, 'all');
     //CASSCADE LAST
     wp_enqueue_style('normalize', get_template_directory_uri() . "/assets/css/normalize.css", array(), $version, 'all');
     wp_enqueue_style('home_style', get_template_directory_uri() . "/style.css", array(), $version, 'all');
@@ -36,5 +39,11 @@ function reachbeyond_scripts() {
 }
 
 add_action('wp_enqueue_scripts', 'reachbeyond_scripts');
+
+//Function to limit exerpt length
+function wpdocs_custom_excerpt_length( $length ) {
+	return 20;
+}
+add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
 
 ?>

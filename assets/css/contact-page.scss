@@ -1,0 +1,29 @@
+//Brand Colors
+$blue: #0063C9;
+$white: #FFFFFF;
+//
+.contactFormSection
+{
+    display: grid;
+    padding: 4vh 7vw;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    background-color: $blue;
+    color: $white;
+    div
+    {
+        h2
+        {
+            font-weight: bold !important;
+        }
+    }
+}
+////////////
+//RESPONSIVE
+@media (max-width: 990px)
+{
+    .contactFormSection
+    {
+        grid-template-columns: 100%;
+    }
+}
