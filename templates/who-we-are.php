@@ -17,7 +17,7 @@ Template Name: Who We Are
 ?>
     <?php $image = $hero['background_image']?>
     <section style="background-image: url('<?php echo esc_url($image['url'])?>')" class="heroTemplate">
-        <p>WHAT WE DO</p>
+        <p>WHO WE ARE</p>
         <h1><?php echo $hero['heading'];?></h1>
     </section>
     

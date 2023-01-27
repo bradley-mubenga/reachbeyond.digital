@@ -10,7 +10,8 @@
     $client = get_field('client_images_section');
     if($hero):
 ?>
-    <section class="heroSection" id="hero">
+    <?php $image = $hero['background_image']?>
+    <section style="background-image: url('<?php echo esc_url($image['url'])?>')" class="heroSection" id="hero">
         <div>
             <h1><?php echo $hero['heading']?></h1>
             <p><?php echo $hero['paragraph']?></p>
