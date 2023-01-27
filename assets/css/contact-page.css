@@ -10,6 +10,12 @@
   font-weight: bold !important;
 }
 
+.thankYouPage {
+  background-color: #0063C9;
+  color: #FFFFFF;
+  padding: 20vh 7vw;
+}
+
 @media (max-width: 990px) {
   .contactFormSection {
     grid-template-columns: 100%;
