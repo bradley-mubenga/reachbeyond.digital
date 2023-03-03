@@ -1,4 +1,4 @@
-# Project Name
+# Reach Beyond
 
 This project is a custom WordPress theme created using SCSS and Advanced Custom Fields to display data on the front end.
 
