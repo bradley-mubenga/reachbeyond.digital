@@ -17,9 +17,9 @@ $white: #FFFFFF;
     .caseStudyCards
     {
         display: grid;
-        grid-template-columns: 33% 33% 33%;
-        grid-gap: 1rem;
+        grid-template-columns: 50% 50%;
         justify-items: center;
+        grid-gap: 1em;
         h3
         {
             color: $blue;

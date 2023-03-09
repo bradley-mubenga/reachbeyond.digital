@@ -62,7 +62,7 @@
 
 .whatWeDoSection {
   display: grid;
-  grid-template-columns: 45% 55%;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-items: center;
   padding: 4vh 7vw;
@@ -87,9 +87,10 @@
 }
 .caseStudySection .caseStudyCards {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
-  grid-gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
   justify-items: center;
+  align-items: center;
 }
 .caseStudySection .caseStudyCards h3 {
   color: #0063C9;
@@ -106,15 +107,6 @@
 }
 .caseStudySection .caseStudyCards div .caseStudyExerptText {
   padding: 2.5vh 0;
-}
-
-@-webkit-keyframes scroll {
-  0% {
-    transform: translateX(100vw);
-  }
-  100% {
-    transform: translateX(-100vw);
-  }
 }
 
 @keyframes scroll {
@@ -139,8 +131,7 @@
   font-weight: bold !important;
 }
 .clientSliderSection .slideTrack {
-  -webkit-animation: scroll 8s linear infinite;
-          animation: scroll 8s linear infinite;
+  animation: scroll 8s linear infinite;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -177,6 +168,9 @@
   justify-items: center;
   align-items: center;
 }
+.footer .logoImageDiv {
+  justify-self: start;
+}
 .footer .logoBottom {
   max-width: 150px;
 }
@@ -190,6 +184,7 @@
   flex-direction: column;
   text-align: left;
   justify-content: center;
+  justify-self: end;
 }
 .footer .footerLinks h2 {
   color: #0063C9;

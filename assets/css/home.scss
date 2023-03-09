@@ -81,7 +81,7 @@ $white: #FFFFFF;
 .whatWeDoSection
 {
     display: grid;
-    grid-template-columns: 45% 55%;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-items: center;
     padding: 4vh 7vw;
@@ -113,9 +113,10 @@ $white: #FFFFFF;
     .caseStudyCards
     {
         display: grid;
-        grid-template-columns: 33% 33% 33%;
-        grid-gap: 1rem;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
         justify-items: center;
+        align-items: center;
         h3
         {
             color: $blue;
@@ -210,6 +211,10 @@ $white: #FFFFFF;
     padding: 4vh 7vw;
     justify-items: center;
     align-items: center;
+    .logoImageDiv
+    {
+        justify-self: start;
+    }
     .logoBottom
     {
         max-width: 150px;
@@ -229,6 +234,7 @@ $white: #FFFFFF;
         flex-direction: column;
         text-align: left;
         justify-content: center;
+        justify-self: end;
         h2 
         {
             color: $blue;

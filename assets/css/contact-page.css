@@ -1,8 +1,9 @@
 .contactFormSection {
   display: grid;
-  padding: 4vh 7vw;
-  grid-template-columns: 50% 50%;
-  align-items: center;
+  grid-template-columns: 100%;
+  justify-content: center;
+  align-items: start;
+  text-align: left;
   background-color: #0063C9;
   color: #FFFFFF;
 }

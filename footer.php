@@ -1,6 +1,6 @@
 
 <footer class="footer">
-    <div>
+    <div class="logoImageDiv">
         <img src="/wp-content/themes/reachbeyond-wp-template/assets/images/logo-blue.png" class="responsiveImage logoBottom" />
         <div class="footerText">
             <p>1 Mernda Drive, Melbourne, Australia</p>

@@ -112,17 +112,22 @@
     {
         font-size: 1.7vw !important;
     }
+    //Home
+    .heroSection
+    {
+        padding: 0 15%;
+    }
 }
 // X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) 
 {
     h1
     {
-        font-size: 6vw !important;
+        font-size: 4vw !important;
     }
     h2
     {
-        font-size: 4vw !important;
+        font-size: 2vw !important;
         font-weight: normal !important;
     }
     h3
@@ -132,10 +137,58 @@
     }
     p 
     {
-        font-size: 1.5vw !important;
+        font-size: 1vw !important;
     }
     a 
     {
-        font-size: 1.5vw !important;
+        font-size: 1vw !important;
+    }
+
+    //Home
+    .heroSection
+    {
+        padding: 0 25%;
+    }
+    .whoWeAreSection
+    {
+        padding: 2.5% 25%;
+    }
+    .whatWeDoSection
+    {
+        padding: 2.5% 25%;
+    }
+    .caseStudyCards
+    {
+        padding: 2.5% 25%;
+    }
+    .contactCTA
+    {
+        padding: 2.5% 25%;
+    }
+    .footer
+    {
+        padding: 2.5% 25%;
+    }
+    //Who we are
+    .heroTemplate
+    {
+        padding: 2.5% 25%;
+    }
+    .coreValuesSection
+    {
+        padding: 2.5% 25%;
+    }
+    .meetOurTeamSection
+    {
+        padding: 2.5% 25%;
+    }
+    .founderSection
+    {
+        padding: 2.5% 25%;
+    }
+    //Contact Page
+    .contactFormSection
+    {
+        padding: 2.5% 25%;
     }
 }

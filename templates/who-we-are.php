@@ -59,7 +59,7 @@ Template Name: Who We Are
         </div>
     </section>
 
-    <section class="whoCallToAction">
+    <section class="whoCallToAction"></section>
         <h2>Want to reach beyond your goals?</h2>
         <p>Reach out today and let's discuss we can help your business grow.</p>
         <div>

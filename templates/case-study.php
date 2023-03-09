@@ -20,7 +20,7 @@ Template Name: Case Study Archive
             <?php
                 $args = array(
                     'post_type' => 'post',
-                    'posts_per_page' => 3
+                    'posts_per_page' => 2
                 );
                 $_posts = new WP_Query($args);
             ?>
