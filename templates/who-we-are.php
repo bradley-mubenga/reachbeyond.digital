@@ -3,6 +3,7 @@
 Template Name: Who We Are
 */
 ?>
+
 <?php
     get_header();
 ?>
@@ -59,15 +60,7 @@ Template Name: Who We Are
         </div>
     </section>
 
-    <section class="whoCallToAction"></section>
-        <h2>Want to reach beyond your goals?</h2>
-        <p>Reach out today and let's discuss we can help your business grow.</p>
-        <div>
-            <a href="/contact" class="whiteCTA">
-                Contact Us
-            </a>
-        </div>
-    </section>
+    <?php get_template_part('template-parts/contact', 'cta')?>
 
 <?php endif?>
 
