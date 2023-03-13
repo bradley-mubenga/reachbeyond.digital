@@ -249,6 +249,58 @@ $white: #FFFFFF;
         }
     }
 }
+//FORM 2
+//Contact Form
+.rb_contact_form2
+{
+    form
+    {
+        .wpforms-field-container
+        {
+            div
+            {
+                input
+                {
+                    background-color: white !important;
+                    max-width: 100% !important;
+                    border: 1px solid white !important;
+                    border-radius: 0 !important;
+                }
+            }
+            div:nth-child(3)
+            {
+                input
+                {
+                    background-color: white !important;
+                    max-width: 100% !important;
+                    border: 1px solid white !important;
+                    border-radius: 0 !important;
+                }
+            }
+            div
+            {
+                textarea
+                {
+                    background-color: white !important;
+                    max-width: 100% !important;
+                    border: 1px solid white !important;
+                    border-radius: 0;
+                }
+            }
+        }
+        .wpforms-submit-container
+        {
+            .rb_contact_submit2
+            {
+                background-color: #0063C9 !important;
+                color: white !important;
+                border: 1px solid white !important;
+                border-radius: 0;
+            }
+        }
+    }
+}
+//
 //
 .footer {
     display: grid;

@@ -182,6 +182,31 @@
   border-radius: 0;
 }
 
+.rb_contact_form2 form .wpforms-field-container div input {
+  background-color: white !important;
+  max-width: 100% !important;
+  border: 1px solid white !important;
+  border-radius: 0 !important;
+}
+.rb_contact_form2 form .wpforms-field-container div:nth-child(3) input {
+  background-color: white !important;
+  max-width: 100% !important;
+  border: 1px solid white !important;
+  border-radius: 0 !important;
+}
+.rb_contact_form2 form .wpforms-field-container div textarea {
+  background-color: white !important;
+  max-width: 100% !important;
+  border: 1px solid white !important;
+  border-radius: 0;
+}
+.rb_contact_form2 form .wpforms-submit-container .rb_contact_submit2 {
+  background-color: #0063C9 !important;
+  color: white !important;
+  border: 1px solid white !important;
+  border-radius: 0;
+}
+
 .footer {
   display: grid;
   grid-template-columns: 50% 50%;

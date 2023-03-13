@@ -6,6 +6,7 @@
     <section class="singlePost">
         <?php the_content(); ?>
     </section>
+    
 <?php endwhile; else: endif?>
 
 <?php
