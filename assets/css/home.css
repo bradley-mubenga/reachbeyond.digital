@@ -156,9 +156,30 @@
 .contactCTA div h2 {
   font-weight: bold !important;
 }
-.contactCTA div .contactCTADIV {
-  padding: 2vh 0;
-  text-align: center;
+
+.rb_contact_form form .wpforms-field-container div input {
+  background-color: white !important;
+  max-width: 100% !important;
+  border: 1px solid white !important;
+  border-radius: 0 !important;
+}
+.rb_contact_form form .wpforms-field-container div:nth-child(3) input {
+  background-color: white !important;
+  max-width: 100% !important;
+  border: 1px solid white !important;
+  border-radius: 0 !important;
+}
+.rb_contact_form form .wpforms-field-container div textarea {
+  background-color: white !important;
+  max-width: 100% !important;
+  border: 1px solid white !important;
+  border-radius: 0;
+}
+.rb_contact_form form .wpforms-submit-container .rb_contact_submit {
+  background-color: #0063C9 !important;
+  color: white !important;
+  border: 1px solid white !important;
+  border-radius: 0;
 }
 
 .footer {
