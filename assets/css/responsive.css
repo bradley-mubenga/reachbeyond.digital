@@ -139,4 +139,7 @@
   .contactFormSection {
     padding: 2.5% 25%;
   }
+  .singlePost {
+    padding: 10% 25% 5% 25% !important;
+  }
 }/*# sourceMappingURL=responsive.css.map */

@@ -8,8 +8,6 @@
     </section>
 <?php endwhile; else: endif?>
 
-<?php get_template_part('/template-parts/contact', 'cta')?>
-
 <?php
     get_footer();
 ?>
