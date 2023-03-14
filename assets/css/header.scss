@@ -41,7 +41,7 @@ $white: #FFFFFF;
     }
 }
 //RESPONSIVE FUNCTIONALITY
-@media (max-width: 991px)
+@media (max-width: 1199px)
 {
     .navbar
     {
@@ -77,6 +77,28 @@ $white: #FFFFFF;
                 li 
                 {
                     padding: 3vh 1vw;
+                    a
+                    {
+                        border-bottom: 0.007em solid white;
+                    }
+                    .dropDownItems
+                    {
+                        display: none;
+                        padding: 0 0 1em 1em;
+                        position: relative;
+                        text-align: start;
+                        align-items: start;
+                        transition: transform 0.5s ease-in-out;
+                        a
+                        {
+                            padding: 0.5em 0;
+                            border-bottom: 0.007em solid white;
+                        }
+                    }
+                }
+                .activeMenu
+                {
+                    display: flex !important;
                 }
             }
         }
@@ -86,8 +108,44 @@ $white: #FFFFFF;
         }
     }
 }
-
 .hideOrShow
 {
     overflow-y: hidden;
+}
+
+//DESKTOP
+@media (min-width: 1200px)
+{
+    //Header
+    .navbar
+    {
+        .navbarLinks
+        {
+            ul 
+            {
+                li
+                {
+                    .dropDownItems
+                    {
+                        display: none;
+                        flex-direction: column;
+                        position: absolute;
+                        background-color: #0063C9;
+                        text-align: start;
+                        padding: 1em 1em 1em 1em;
+                        a
+                        {
+                            padding: 0.5em 0;
+                            cursor: pointer;
+                            border-bottom: 0.007em solid white;
+                        }
+                    }
+                }
+                li.dropDownMenu:hover > .dropDownItems
+                {
+                    display: flex;
+                }
+            }
+        }
+}
 }

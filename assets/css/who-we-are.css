@@ -43,8 +43,8 @@
 }
 .meetOurTeamSection .teamPictures {
   display: grid;
-  grid-template-columns: 33.3% 33.3% 33.3%;
-  grid-gap: 3rem 0;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3em;
   padding: 4vh 0;
   align-items: center;
   justify-content: center;
