@@ -54,6 +54,7 @@ $white: #FFFFFF;
     h2
     {
         font-weight: bold !important;
+        color: #0063C9 !important;
     }
     figure
     {
@@ -63,6 +64,10 @@ $white: #FFFFFF;
             width: 100%;
             height: auto;
         }
+    }
+    label
+    {
+        color: #0063C9 !important;
     }
 }
 ////////////

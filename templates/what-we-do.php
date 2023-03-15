@@ -18,9 +18,9 @@ Template Name: Service
         <h1><?php echo $hero['heading'];?></h1>
     </section>
 
-    <section>
-        <h2><?php echo $hero['heading'];?></h2>
-        <p><?php echo the_field('paragraph'); ?></p>
+    <section class="serviceContainer">
+        <h2><?php echo $hero['title'];?></h2>
+        <p><?php echo $hero['paragraph'];?></p>
     </section>
 
     <?php get_template_part('template-parts/contact', 'cta')?>

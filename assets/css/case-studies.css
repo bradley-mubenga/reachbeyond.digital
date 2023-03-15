@@ -42,6 +42,7 @@
 }
 .singlePost h2 {
   font-weight: bold !important;
+  color: #0063C9 !important;
 }
 .singlePost figure {
   text-align: center;
@@ -49,6 +50,9 @@
 .singlePost figure img {
   width: 100%;
   height: auto;
+}
+.singlePost label {
+  color: #0063C9 !important;
 }
 
 @media (max-width: 990px) {

@@ -185,25 +185,25 @@
 .rb_contact_form2 form .wpforms-field-container div input {
   background-color: white !important;
   max-width: 100% !important;
-  border: 1px solid white !important;
+  border: 1px solid #0063C9 !important;
   border-radius: 0 !important;
 }
 .rb_contact_form2 form .wpforms-field-container div:nth-child(3) input {
   background-color: white !important;
   max-width: 100% !important;
-  border: 1px solid white !important;
+  border: 1px solid #0063C9 !important;
   border-radius: 0 !important;
 }
 .rb_contact_form2 form .wpforms-field-container div textarea {
   background-color: white !important;
   max-width: 100% !important;
-  border: 1px solid white !important;
+  border: 1px solid #0063C9 !important;
   border-radius: 0;
 }
 .rb_contact_form2 form .wpforms-submit-container .rb_contact_submit2 {
   background-color: #0063C9 !important;
   color: white !important;
-  border: 1px solid white !important;
+  border: 1px solid #0063C9 !important;
   border-radius: 0;
 }
 
@@ -281,7 +281,11 @@
     text-align: left;
   }
   .footer {
-    grid-template-columns: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer div:nth-child(2) {
+    padding-bottom: 1em;
   }
   .footer div {
     text-align: center;

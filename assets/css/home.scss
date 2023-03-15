@@ -263,7 +263,7 @@ $white: #FFFFFF;
                 {
                     background-color: white !important;
                     max-width: 100% !important;
-                    border: 1px solid white !important;
+                    border: 1px solid #0063C9 !important;
                     border-radius: 0 !important;
                 }
             }
@@ -273,7 +273,7 @@ $white: #FFFFFF;
                 {
                     background-color: white !important;
                     max-width: 100% !important;
-                    border: 1px solid white !important;
+                    border: 1px solid #0063C9 !important;
                     border-radius: 0 !important;
                 }
             }
@@ -283,7 +283,7 @@ $white: #FFFFFF;
                 {
                     background-color: white !important;
                     max-width: 100% !important;
-                    border: 1px solid white !important;
+                    border: 1px solid #0063C9 !important;
                     border-radius: 0;
                 }
             }
@@ -294,7 +294,7 @@ $white: #FFFFFF;
             {
                 background-color: #0063C9 !important;
                 color: white !important;
-                border: 1px solid white !important;
+                border: 1px solid #0063C9 !important;
                 border-radius: 0;
             }
         }
@@ -401,7 +401,12 @@ $white: #FFFFFF;
     }
     .footer
     {
-        grid-template-columns: 100%;
+        display: flex;
+        flex-direction: column;
+        div:nth-child(2)
+        {
+            padding-bottom: 1em;
+        }
         div
         {
             text-align: center;

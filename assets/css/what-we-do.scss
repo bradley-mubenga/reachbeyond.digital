@@ -2,6 +2,21 @@
 $blue: #0063C9;
 $white: #FFFFFF;
 //
+.serviceContainer
+{
+    h2
+    {
+        color: #0063C9;
+        font-weight: bold !important;
+    }
+}
 
 ////////////
 //RESPONSIVE
+@media (max-width: 1199px)
+{
+    .serviceContainer
+    {
+        padding: 4vh 7vw;
+    }
+}
