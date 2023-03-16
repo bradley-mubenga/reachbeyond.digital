@@ -90,7 +90,6 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 1em;
   justify-items: center;
-  align-items: center;
 }
 .caseStudySection .caseStudyCards h3 {
   color: #0063C9;
