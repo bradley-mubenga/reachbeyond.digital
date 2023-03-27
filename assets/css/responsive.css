@@ -27,6 +27,12 @@
   a {
     font-size: 4vw !important;
   }
+  .clientLogoSection .clientLogos {
+    grid-template-columns: 1fr;
+  }
+  .clientLogoSection .clientLogos .imageLogo {
+    padding: 2vh 0;
+  }
 }
 @media (min-width: 576px) {
   h1 {
@@ -46,6 +52,12 @@
   a {
     font-size: 2.5vw !important;
   }
+  .clientLogoSection .clientLogos {
+    grid-template-columns: 1fr;
+  }
+  .clientLogoSection .clientLogos .imageLogo {
+    padding: 2vh 0;
+  }
 }
 @media (min-width: 768px) {
   h1 {
@@ -64,6 +76,9 @@
   }
   a {
     font-size: 2.5vw !important;
+  }
+  .clientLogoSection .clientLogos {
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media (min-width: 992px) {
@@ -86,6 +101,9 @@
   }
   .heroSection {
     padding: 0 15%;
+  }
+  .clientLogoSection .clientLogos {
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media (min-width: 1200px) {
@@ -116,6 +134,9 @@
     padding: 2.5% 25%;
   }
   .caseStudyCards {
+    padding: 2.5% 25%;
+  }
+  .clientLogoSection {
     padding: 2.5% 25%;
   }
   .contactCTA {

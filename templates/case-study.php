@@ -19,8 +19,7 @@ Template Name: Case Study Archive
         <div class="caseStudyCards">
             <?php
                 $args = array(
-                    'post_type' => 'post',
-                    'posts_per_page' => 2
+                    'post_type' => 'post'
                 );
                 $_posts = new WP_Query($args);
             ?>

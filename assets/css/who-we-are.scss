@@ -28,7 +28,7 @@ $white: #FFFFFF;
 .coreValuesSection
 {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
     padding: 4vh 7vw;

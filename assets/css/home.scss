@@ -138,50 +138,36 @@ $white: #FFFFFF;
         }
     }
 }
-//CLIENT LOGO SECTION
-@keyframes scroll {
-    0%
-    {
-        transform: translateX(100vw);
-    }
-    100%
-    {
-        transform: translateX(calc(-100vw));
-    }
-}
-.clientSliderSection
+//CLIENT LOGO'S SECTION
+.clientLogoSection
 {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    padding: 4vh 7vw;
-    color: $blue;
-    overflow: hidden;
     text-align: center;
-    z-index: -10;
-    h2 
+    padding: 5vh 7vw;
+    h2
     {
         font-weight: bold !important;
+        color: $blue;
     }
-    .slideTrack
+    .clientLogos
     {
-        animation: scroll 8s linear infinite;
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
         align-items: center;
-        justify-content: space-between;
-        padding: 2vh 0;
-        transition: transform 0.5s ease-in-out;
-        .slide
+        .imageLogo
         {
-            padding: 0 5vw;
+            justify-content: center;
             .logo
             {
-                width: 250px !important;
+                width: 100%;
                 height: auto;
+                max-width: 150px;
             }
         }
     }
+
 }
+
 //CONTACT CTA
 .contactCTA
 {

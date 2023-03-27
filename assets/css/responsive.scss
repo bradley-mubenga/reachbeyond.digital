@@ -34,6 +34,17 @@
     {
         font-size: 4vw !important;
     }
+    .clientLogoSection
+    {
+        .clientLogos
+        {
+            grid-template-columns: 1fr;
+            .imageLogo
+            {
+                padding: 2vh 0;
+            }
+        }
+    }
 }
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) 
@@ -60,6 +71,17 @@
     {
         font-size: 2.5vw !important;
     }
+    .clientLogoSection
+    {
+        .clientLogos
+        {
+            grid-template-columns: 1fr;
+            .imageLogo
+            {
+                padding: 2vh 0;
+            }
+        }
+    }
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) 
@@ -85,6 +107,13 @@
     a 
     {
         font-size: 2.5vw !important;
+    }
+    .clientLogoSection
+    {
+        .clientLogos
+        {
+            grid-template-columns: 1fr 1fr;
+        }
     }
 }
 // Large devices (desktops, 992px and up)
@@ -116,6 +145,13 @@
     .heroSection
     {
         padding: 0 15%;
+    }
+    .clientLogoSection
+    {
+        .clientLogos
+        {
+            grid-template-columns: 1fr 1fr;
+        }
     }
 }
 // X-Large devices (large desktops, 1200px and up)
@@ -157,6 +193,10 @@
         padding: 2.5% 25%;
     }
     .caseStudyCards
+    {
+        padding: 2.5% 25%;
+    }
+    .clientLogoSection
     {
         padding: 2.5% 25%;
     }

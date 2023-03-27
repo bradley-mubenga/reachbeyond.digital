@@ -19,7 +19,7 @@
         <div class="callToAction">
             <a href="/contact" class="whiteCTA">Contact Us</a>
             <span></span>
-            <a href="/what-we-do" class="whiteLinedCTA">Learn More</a>
+            <a href="/who-we-are" class="whiteLinedCTA">Learn More</a>
         </div>
     </section>
 
