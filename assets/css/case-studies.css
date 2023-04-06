@@ -44,6 +44,10 @@
   font-weight: bold !important;
   color: #0063C9 !important;
 }
+.singlePost h1 {
+  font-weight: bold !important;
+  color: #0063C9 !important;
+}
 .singlePost figure {
   text-align: center;
 }

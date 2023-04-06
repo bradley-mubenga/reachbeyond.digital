@@ -24,6 +24,9 @@
   p {
     font-size: 4vw !important;
   }
+  li {
+    font-size: 4vw !important;
+  }
   a {
     font-size: 4vw !important;
   }
@@ -47,6 +50,9 @@
     font-weight: normal !important;
   }
   p {
+    font-size: 2.5vw !important;
+  }
+  li {
     font-size: 2.5vw !important;
   }
   a {
@@ -74,6 +80,9 @@
   p {
     font-size: 2.5vw !important;
   }
+  li {
+    font-size: 2.5vw !important;
+  }
   a {
     font-size: 2.5vw !important;
   }
@@ -94,6 +103,9 @@
     font-weight: normal !important;
   }
   p {
+    font-size: 1.7vw !important;
+  }
+  li {
     font-size: 1.7vw !important;
   }
   a {
@@ -119,6 +131,9 @@
     font-weight: normal !important;
   }
   p {
+    font-size: 1vw !important;
+  }
+  li {
     font-size: 1vw !important;
   }
   a {
