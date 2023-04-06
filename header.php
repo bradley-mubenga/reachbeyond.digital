@@ -32,8 +32,15 @@
                 <li>
                     <a href="/who-we-are">Who We Are</a>
                 </li>
-                <li>
-                    <a href="/what-we-do">What We Do</a>
+                <li class="dropDownMenu">
+                    <a href="#" class="dropDownButton" id="dropDownButton">What We Do</a>
+                    <ul class="dropDownItems" id="dropDownItems">
+                        <a href="/paid-ads">Paid Ads</a>
+                        <a href="/remarketing">Remarketing</a>
+                        <a href="/conversion-tracking">Conversion Tracking</a>
+                        <a href="/graphic-design">Graphic design</a>
+                        <a href="/campaign-audits">Campaign audits</a>
+                    </ul>
                 </li>
                 <li>
                     <a href="/case-study">Case Studies</a>

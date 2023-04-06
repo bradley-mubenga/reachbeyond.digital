@@ -18,16 +18,7 @@ Template Name: Contact Us
         <h1><?php echo $hero['heading'];?></h1>
     </section>
 
-    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-        <section class="contactFormSection">
-            <div>
-                <h2>Fill in your contact details and our team will get in touch with you.</h2>
-            </div>
-            <div>
-                <?php the_content(); ?>
-            </div>
-        </section>
-    <?php endwhile; else: endif?>
+    <?php get_template_part('template-parts/contact', 'cta')?>
 
 <?php endif?>
 

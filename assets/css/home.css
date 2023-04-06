@@ -90,7 +90,6 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 1em;
   justify-items: center;
-  align-items: center;
 }
 .caseStudySection .caseStudyCards h3 {
   color: #0063C9;
@@ -109,41 +108,27 @@
   padding: 2.5vh 0;
 }
 
-@keyframes scroll {
-  0% {
-    transform: translateX(100vw);
-  }
-  100% {
-    transform: translateX(-100vw);
-  }
-}
-.clientSliderSection {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  padding: 4vh 7vw;
-  color: #0063C9;
-  overflow: hidden;
+.clientLogoSection {
   text-align: center;
-  z-index: -10;
+  padding: 5vh 7vw;
 }
-.clientSliderSection h2 {
+.clientLogoSection h2 {
   font-weight: bold !important;
+  color: #0063C9;
 }
-.clientSliderSection .slideTrack {
-  animation: scroll 8s linear infinite;
-  display: flex;
+.clientLogoSection .clientLogos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
   align-items: center;
-  justify-content: space-between;
-  padding: 2vh 0;
-  transition: transform 0.5s ease-in-out;
 }
-.clientSliderSection .slideTrack .slide {
-  padding: 0 5vw;
+.clientLogoSection .clientLogos .imageLogo {
+  justify-content: center;
 }
-.clientSliderSection .slideTrack .slide .logo {
-  width: 250px !important;
+.clientLogoSection .clientLogos .imageLogo .logo {
+  width: 100%;
   height: auto;
+  max-width: 150px;
 }
 
 .contactCTA {
@@ -156,9 +141,55 @@
 .contactCTA div h2 {
   font-weight: bold !important;
 }
-.contactCTA div .contactCTADIV {
-  padding: 2vh 0;
-  text-align: center;
+
+.rb_contact_form form .wpforms-field-container div input {
+  background-color: white !important;
+  max-width: 100% !important;
+  border: 1px solid white !important;
+  border-radius: 0 !important;
+}
+.rb_contact_form form .wpforms-field-container div:nth-child(3) input {
+  background-color: white !important;
+  max-width: 100% !important;
+  border: 1px solid white !important;
+  border-radius: 0 !important;
+}
+.rb_contact_form form .wpforms-field-container div textarea {
+  background-color: white !important;
+  max-width: 100% !important;
+  border: 1px solid white !important;
+  border-radius: 0;
+}
+.rb_contact_form form .wpforms-submit-container .rb_contact_submit {
+  background-color: #0063C9 !important;
+  color: white !important;
+  border: 1px solid white !important;
+  border-radius: 0;
+}
+
+.rb_contact_form2 form .wpforms-field-container div input {
+  background-color: white !important;
+  max-width: 100% !important;
+  border: 1px solid #0063C9 !important;
+  border-radius: 0 !important;
+}
+.rb_contact_form2 form .wpforms-field-container div:nth-child(3) input {
+  background-color: white !important;
+  max-width: 100% !important;
+  border: 1px solid #0063C9 !important;
+  border-radius: 0 !important;
+}
+.rb_contact_form2 form .wpforms-field-container div textarea {
+  background-color: white !important;
+  max-width: 100% !important;
+  border: 1px solid #0063C9 !important;
+  border-radius: 0;
+}
+.rb_contact_form2 form .wpforms-submit-container .rb_contact_submit2 {
+  background-color: #0063C9 !important;
+  color: white !important;
+  border: 1px solid #0063C9 !important;
+  border-radius: 0;
 }
 
 .footer {
@@ -235,7 +266,11 @@
     text-align: left;
   }
   .footer {
-    grid-template-columns: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer div:nth-child(2) {
+    padding-bottom: 1em;
   }
   .footer div {
     text-align: center;

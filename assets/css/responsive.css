@@ -24,8 +24,17 @@
   p {
     font-size: 4vw !important;
   }
+  li {
+    font-size: 4vw !important;
+  }
   a {
     font-size: 4vw !important;
+  }
+  .clientLogoSection .clientLogos {
+    grid-template-columns: 1fr;
+  }
+  .clientLogoSection .clientLogos .imageLogo {
+    padding: 2vh 0;
   }
 }
 @media (min-width: 576px) {
@@ -43,8 +52,17 @@
   p {
     font-size: 2.5vw !important;
   }
+  li {
+    font-size: 2.5vw !important;
+  }
   a {
     font-size: 2.5vw !important;
+  }
+  .clientLogoSection .clientLogos {
+    grid-template-columns: 1fr;
+  }
+  .clientLogoSection .clientLogos .imageLogo {
+    padding: 2vh 0;
   }
 }
 @media (min-width: 768px) {
@@ -62,8 +80,14 @@
   p {
     font-size: 2.5vw !important;
   }
+  li {
+    font-size: 2.5vw !important;
+  }
   a {
     font-size: 2.5vw !important;
+  }
+  .clientLogoSection .clientLogos {
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media (min-width: 992px) {
@@ -81,11 +105,17 @@
   p {
     font-size: 1.7vw !important;
   }
+  li {
+    font-size: 1.7vw !important;
+  }
   a {
     font-size: 1.7vw !important;
   }
   .heroSection {
     padding: 0 15%;
+  }
+  .clientLogoSection .clientLogos {
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media (min-width: 1200px) {
@@ -103,6 +133,9 @@
   p {
     font-size: 1vw !important;
   }
+  li {
+    font-size: 1vw !important;
+  }
   a {
     font-size: 1vw !important;
   }
@@ -116,6 +149,9 @@
     padding: 2.5% 25%;
   }
   .caseStudyCards {
+    padding: 2.5% 25%;
+  }
+  .clientLogoSection {
     padding: 2.5% 25%;
   }
   .contactCTA {
@@ -136,7 +172,16 @@
   .founderSection {
     padding: 2.5% 25%;
   }
+  .thankYouPage {
+    padding: 15% 25%;
+  }
   .contactFormSection {
+    padding: 2.5% 25%;
+  }
+  .singlePost {
+    padding: 10% 25% 5% 25% !important;
+  }
+  .serviceContainer {
     padding: 2.5% 25%;
   }
 }/*# sourceMappingURL=responsive.css.map */

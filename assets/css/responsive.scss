@@ -30,9 +30,24 @@
     {
         font-size: 4vw !important;
     }
+    li
+    {
+        font-size: 4vw !important;
+    }
     a 
     {
         font-size: 4vw !important;
+    }
+    .clientLogoSection
+    {
+        .clientLogos
+        {
+            grid-template-columns: 1fr;
+            .imageLogo
+            {
+                padding: 2vh 0;
+            }
+        }
     }
 }
 // Small devices (landscape phones, 576px and up)
@@ -56,9 +71,24 @@
     {
         font-size: 2.5vw !important;
     }
+    li
+    {
+        font-size: 2.5vw !important;
+    }
     a 
     {
         font-size: 2.5vw !important;
+    }
+    .clientLogoSection
+    {
+        .clientLogos
+        {
+            grid-template-columns: 1fr;
+            .imageLogo
+            {
+                padding: 2vh 0;
+            }
+        }
     }
 }
 // Medium devices (tablets, 768px and up)
@@ -82,9 +112,20 @@
     {
         font-size: 2.5vw !important;
     }
+    li
+    {
+        font-size: 2.5vw !important;
+    }
     a 
     {
         font-size: 2.5vw !important;
+    }
+    .clientLogoSection
+    {
+        .clientLogos
+        {
+            grid-template-columns: 1fr 1fr;
+        }
     }
 }
 // Large devices (desktops, 992px and up)
@@ -108,6 +149,10 @@
     {
         font-size: 1.7vw !important;
     }
+    li
+    {
+        font-size: 1.7vw !important;
+    }
     a 
     {
         font-size: 1.7vw !important;
@@ -116,6 +161,13 @@
     .heroSection
     {
         padding: 0 15%;
+    }
+    .clientLogoSection
+    {
+        .clientLogos
+        {
+            grid-template-columns: 1fr 1fr;
+        }
     }
 }
 // X-Large devices (large desktops, 1200px and up)
@@ -139,11 +191,14 @@
     {
         font-size: 1vw !important;
     }
+    li
+    {
+        font-size: 1vw !important;
+    }
     a 
     {
         font-size: 1vw !important;
     }
-
     //Home
     .heroSection
     {
@@ -158,6 +213,10 @@
         padding: 2.5% 25%;
     }
     .caseStudyCards
+    {
+        padding: 2.5% 25%;
+    }
+    .clientLogoSection
     {
         padding: 2.5% 25%;
     }
@@ -186,8 +245,22 @@
     {
         padding: 2.5% 25%;
     }
+    .thankYouPage
+    {
+        padding: 15% 25%;
+    }
     //Contact Page
     .contactFormSection
+    {
+        padding: 2.5% 25%;
+    }
+    //Single Post
+    .singlePost
+    {
+        padding: 10% 25% 5% 25% !important;
+    }
+    //Services
+    .serviceContainer
     {
         padding: 2.5% 25%;
     }

@@ -1,28 +1,10 @@
-.servicesBlocksSection {
-  display: grid;
-  grid-template-columns: 50% 50%;
-}
-.servicesBlocksSection .serviceBlock {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  min-height: 500px;
-  max-height: 500px;
-  width: auto;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: center;
-  padding: 0 7vw;
-  color: #FFFFFF;
-}
-.servicesBlocksSection .serviceBlock h2 {
+.serviceContainer h2 {
+  color: #0063C9;
   font-weight: bold !important;
 }
 
-@media (max-width: 990px) {
-  .servicesBlocksSection {
-    grid-template-columns: 100%;
+@media (max-width: 1199px) {
+  .serviceContainer {
+    padding: 4vh 7vw;
   }
 }/*# sourceMappingURL=what-we-do.css.map */

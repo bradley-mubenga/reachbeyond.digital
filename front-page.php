@@ -19,7 +19,7 @@
         <div class="callToAction">
             <a href="/contact" class="whiteCTA">Contact Us</a>
             <span></span>
-            <a href="/what-we-do" class="whiteLinedCTA">Learn More</a>
+            <a href="/who-we-are" class="whiteLinedCTA">Learn More</a>
         </div>
     </section>
 
@@ -29,7 +29,7 @@
             <p><?php echo $who['paragraph_1']?></p>
             <p><?php echo $who['paragraph_2']?></p>
             <div class="callToActionDiv">
-                <a href="/what-we-do" class="blueLinedCTA">What We Do</a>
+                <a href="/paid-ads" class="blueLinedCTA">What We Do</a>
             </div>
         </div>
         <div class="servicesIcons">
@@ -85,13 +85,13 @@
         </div>
     </section>
 
-    <section class="clientSliderSection">
+    <section class="clientLogoSection">
         <h2><?php echo $client['heading']?></h2>
         <p><?php echo $client['paragraph']?></p>
         
-        <div class="slideTrack">
+        <div class="clientLogos">
             <?php foreach( $client['logos'] as $image ): ?>
-                <div class="slide">
+                <div class="imageLogo">
                     <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="logo"/>
                 </div>
             <?php endforeach; ?>
