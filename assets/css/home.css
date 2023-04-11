@@ -201,8 +201,8 @@
 
 .footer {
   display: grid;
-  grid-template-columns: 50% 50%;
-  padding: 4vh 7vw;
+  grid-template-columns: 1fr 1fr;
+  padding: 4vh 7vw 0 7vw;
   justify-items: center;
   align-items: center;
 }
@@ -244,6 +244,12 @@
 .footer .footerLinks div a:hover {
   color: #0063C9 !important;
   text-decoration: underline;
+}
+
+footer .bottomNote {
+  display: flex;
+  justify-content: center;
+  padding: 1vh 7vw;
 }
 
 @media (max-width: 990px) {
