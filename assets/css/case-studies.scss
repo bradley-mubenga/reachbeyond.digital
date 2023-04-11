@@ -30,6 +30,7 @@ $white: #FFFFFF;
         {
             color: black;
             padding-bottom: 2vh;
+            line-height: 1.45em;
         }
         .caseStudyCard
         {
@@ -60,6 +61,10 @@ $white: #FFFFFF;
     {
         font-weight: bold !important;
         color: #0063C9 !important;
+    }
+    p
+    {
+        line-height: 1.45em;
     }
     figure
     {

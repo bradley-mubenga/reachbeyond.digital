@@ -32,7 +32,7 @@ $white: #FFFFFF;
 .whoWeAreSection
 {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-items: center;
     padding: 4vh 7vw;
@@ -47,11 +47,15 @@ $white: #FFFFFF;
         {
             padding: 2vh 0;
         }
+        p
+        {
+            line-height: 1.45em;
+        }
     }
     .servicesIcons
     {
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 1fr 1fr;
         align-items: center;
         .iconBlock
         {
@@ -97,6 +101,10 @@ $white: #FFFFFF;
         {
             padding: 2vh 0;
         }
+        p
+        {
+            line-height: 1.45em;
+        }
     }
 }
 //CASE STUDY SECTION
@@ -126,6 +134,7 @@ $white: #FFFFFF;
         {
             color: black;
             padding-bottom: 2vh;
+            line-height: 1.45em;
         }
         div
         {
@@ -305,10 +314,16 @@ $white: #FFFFFF;
     {
         p 
         {
-            color: black !important;
+            color: $blue !important;
             margin: 0;
-            padding: 0.5vh 0;
+            padding: 0.25em 0 0.5em 0;
+
         }
+        a
+        {
+            text-decoration: underline;
+        }
+        
     }
     .footerLinks
     {
@@ -399,6 +414,20 @@ $white: #FFFFFF;
         .footerLinks
         {
             text-align: center;
+        }
+    }
+}
+
+@media (min-width: 991px)
+{
+    .heroSection
+    {
+        div
+        {
+            p 
+            {
+                font-size: 2em !important;
+            }
         }
     }
 }

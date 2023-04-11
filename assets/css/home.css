@@ -23,7 +23,7 @@
 
 .whoWeAreSection {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-items: center;
   padding: 4vh 7vw;
@@ -35,9 +35,12 @@
 .whoWeAreSection div .callToActionDiv {
   padding: 2vh 0;
 }
+.whoWeAreSection div p {
+  line-height: 1.45em;
+}
 .whoWeAreSection .servicesIcons {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
 }
 .whoWeAreSection .servicesIcons .iconBlock {
@@ -75,6 +78,9 @@
 .whatWeDoSection div .callToActionDiv {
   padding: 2vh 0;
 }
+.whatWeDoSection div p {
+  line-height: 1.45em;
+}
 
 .caseStudySection {
   padding: 4vh 7vw;
@@ -99,6 +105,7 @@
 .caseStudySection .caseStudyCards p {
   color: black;
   padding-bottom: 2vh;
+  line-height: 1.45em;
 }
 .caseStudySection .caseStudyCards div {
   background-color: #FFFFFF;
@@ -206,9 +213,12 @@
   max-width: 150px;
 }
 .footer .footerText p {
-  color: black !important;
+  color: #0063C9 !important;
   margin: 0;
-  padding: 0.5vh 0;
+  padding: 0.25em 0 0.5em 0;
+}
+.footer .footerText a {
+  text-decoration: underline;
 }
 .footer .footerLinks {
   display: flex;
@@ -277,5 +287,10 @@
   }
   .footer .footerLinks {
     text-align: center;
+  }
+}
+@media (min-width: 991px) {
+  .heroSection div p {
+    font-size: 2em !important;
   }
 }/*# sourceMappingURL=home.css.map */

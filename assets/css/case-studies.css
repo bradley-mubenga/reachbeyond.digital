@@ -23,6 +23,7 @@
 .caseStudyArchiveSection .caseStudyCards p {
   color: black;
   padding-bottom: 2vh;
+  line-height: 1.45em;
 }
 .caseStudyArchiveSection .caseStudyCards .caseStudyCard {
   border: 0.15rem solid #0063C9;
@@ -47,6 +48,9 @@
 .singlePost h1 {
   font-weight: bold !important;
   color: #0063C9 !important;
+}
+.singlePost p {
+  line-height: 1.45em;
 }
 .singlePost figure {
   text-align: center;

@@ -1,7 +1,7 @@
 
 <footer class="footer">
     <div class="logoImageDiv">
-        <img src="/wp-content/themes/reachbeyond-wp-template/assets/images/logo-blue.png" class="responsiveImage logoBottom" />
+        <img src="<?php echo get_theme_file_uri("assets/images/logo-blue.png") ?>" class="responsiveImage logoBottom" />
         <div class="footerText">
             <p>1 Mernda Drive, Melbourne, Australia</p>
             <?php 
@@ -9,9 +9,7 @@
                 $link_url = $number['url'];
                 $link_title = $number['title'];
             ?>
-            <a href="tel:+1234567890">
-                <p>(123) 456 7890</p>
-            </a>
+            <a href="tel:+61390135488" class="phoneNumber">+61 3 9013 5488</a>
         </div>
     </div>
     <div class="footerLinks">

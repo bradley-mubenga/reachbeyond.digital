@@ -1,7 +1,7 @@
 /*
 Theme Name: Reach Beyond
 Text Domain: Reach Beyond
-Version: 1.1
+Version: 1.0
 Description: Tailored WordPress theme for digital marketing agency.
 Tags: Digital marketing agency, responsive, business website.
 Author: Bradley Mubenga
@@ -12,19 +12,19 @@ Author URI: https://creativebradley.com/
 {
     font-family: VisbyCF;
     font-weight: light;
-    src: url("/wp-content/themes/reachbeyond-wp-template/assets/font/VisbyCF-Light.otf") format("opentype");
+    src: url("assets/font/VisbyCF-Light.otf") format("opentype");
 }
 @font-face 
 {
     font-family: VisbyCF;
     font-weight: bold;
-    src: url("/wp-content/themes/reachbeyond-wp-template/assets/font/VisbyCF-Bold.otf") format("opentype");
+    src: url("assets/font/VisbyCF-Bold.otf") format("opentype");
 }
 @font-face 
 {
     font-family: VisbyCF;
     font-weight: normal;
-    src: url("/wp-content/themes/reachbeyond-wp-template/assets/font/VisbyCF-Regular.otf") format("opentype");
+    src: url("assets/font/VisbyCF-Regular.otf") format("opentype");
 }
 //Brand Colors
 $blue: #0063C9;

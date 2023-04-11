@@ -29,6 +29,9 @@
   color: #0063C9;
   font-weight: bold !important;
 }
+.coreValuesSection div p {
+  line-height: 1.45em !important;
+}
 
 .meetOurTeamSection {
   display: flex;
@@ -94,6 +97,9 @@
 }
 .founderSection .founderSectionDiv .founderText p:nth-child(1) {
   margin-top: 0;
+}
+.founderSection .founderSectionDiv .founderText p {
+  line-height: 1.45em;
 }
 
 .whoCallToAction {

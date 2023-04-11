@@ -2,8 +2,8 @@ const button = document.getElementById('toggleButton');
 const dropDownButton = document.getElementById('dropDownButton');
 const dropDownMenu = document.getElementById('dropDownItems');
 const icon = document.getElementById('icon');
-const closeIcon = "/wp-content/themes/reachbeyond-wp-template/assets/images/close-button.png";
-const openIcon = "/wp-content/themes/reachbeyond-wp-template/assets/images/menu.png";
+const closeIcon = "https://ik.imagekit.io/yrdximse9a/reachbeyond/close-button.png?updatedAt=1681212231741";
+const openIcon = "https://ik.imagekit.io/yrdximse9a/reachbeyond/menu.png?updatedAt=1681212232004";
 const responsiveNavBar = document.getElementById('navbarLinks');
 const htmlDOC = document.getElementById("html");
 
@@ -12,13 +12,13 @@ button.addEventListener('click', (e) => {
     responsiveNavBar.classList.toggle('active');
     htmlDOC.classList.toggle('hideOrShow');
 
-    if (icon.src == `${document.location.origin}${closeIcon}`)
+    if (icon.src == `${closeIcon}`)
     {
-        icon.src = `${document.location.origin}${openIcon}`;
+        icon.src = `${openIcon}`;
     }
-    else if (icon.src == `${document.location.origin}${openIcon}`)
+    else if (icon.src == `${openIcon}`)
     {
-        icon.src = `${document.location.origin}${closeIcon}`;
+        icon.src = `${closeIcon}`;
     }
     else console.log("ERROR: CHECK header.js")
 });

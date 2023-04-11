@@ -24,7 +24,7 @@
         </div>
 
         <a href="#" class="toggleButton" id="toggleButton">
-            <img src="/wp-content/themes/reachbeyond-wp-template/assets/images/menu.png" id="icon" width="65px" height="65px"/>
+            <img src="https://ik.imagekit.io/yrdximse9a/reachbeyond/menu.png?updatedAt=1681212232004" id="icon" width="65px" height="65px"/>
         </a>
 
         <div class="navbarLinks navbarLinksActive" id="navbarLinks">
@@ -35,8 +35,8 @@
                 <li class="dropDownMenu">
                     <a href="#" class="dropDownButton" id="dropDownButton">What We Do</a>
                     <ul class="dropDownItems" id="dropDownItems">
-                        <a href="/paid-ads">Paid Ads</a>
-                        <a href="/remarketing">Remarketing</a>
+                        <a href="/paid-ads">PPC</a>
+                        <a href="/remarketing">Paid Social</a>
                         <a href="/conversion-tracking">Conversion Tracking</a>
                         <a href="/graphic-design">Graphic design</a>
                         <a href="/campaign-audits">Campaign audits</a>

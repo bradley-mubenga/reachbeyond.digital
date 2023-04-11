@@ -39,6 +39,10 @@ $white: #FFFFFF;
             color: $blue;
             font-weight: bold !important;
         }
+        p
+        {
+            line-height: 1.45em !important;
+        }
     }
 }
 //TEAM SECTION
@@ -120,6 +124,10 @@ $white: #FFFFFF;
             p:nth-child(1)
             {
                 margin-top: 0;
+            }
+            p
+            {
+                line-height: 1.45em;
             }
         }
     }
