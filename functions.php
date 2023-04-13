@@ -23,6 +23,7 @@ function reachbeyond_register_styles() {
     wp_enqueue_style('what_we_do_page_style', get_template_directory_uri() . "/assets/css/what-we-do.css", array(), $version, 'all');
     wp_enqueue_style('contact_page_style', get_template_directory_uri() . "/assets/css/contact-page.css", array(), $version, 'all');
     wp_enqueue_style('case_study_archive_style', get_template_directory_uri() . "/assets/css/case-studies.css", array(), $version, 'all');
+    wp_enqueue_style('font_awesome', "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css", array(), "6.4.0", 'all');
     //CASSCADE LAST
     wp_enqueue_style('normalize', get_template_directory_uri() . "/assets/css/normalize.css", array(), $version, 'all');
     wp_enqueue_style('home_style', get_template_directory_uri() . "/style.css", array(), $version, 'all');

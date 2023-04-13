@@ -8,7 +8,6 @@
         <br />
         <?php the_content();?>
     </section>
-    
 <?php endwhile; else: endif?>
 
 <?php

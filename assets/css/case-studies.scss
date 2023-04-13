@@ -80,6 +80,14 @@ $white: #FFFFFF;
         color: #0063C9 !important;
     }
 }
+.caseStudyArchiveSection.onServicePage
+{
+    padding-top: 0vh !important;  
+    .caseStudyCards
+    {
+        padding-top: 0vh !important;
+    }
+}
 ////////////
 //RESPONSIVE
 @media (max-width: 990px)
