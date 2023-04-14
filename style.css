@@ -49,6 +49,11 @@ a.whiteCTA {
   color: #0063C9 !important;
   background-color: #FFFFFF;
   padding: 1.5vh 2vw;
+  transition: opacity 0.2s ease-in-out;
+}
+
+a.whiteCTA:hover {
+  opacity: 0.7;
 }
 
 a.whiteLinedCTA {
@@ -56,6 +61,11 @@ a.whiteLinedCTA {
   background-color: transparent;
   padding: 1.25vh 2vw;
   border: 0.25vh solid #FFFFFF;
+  transition: opacity 0.2s ease-in-out;
+}
+
+a.whiteLinedCTA:hover {
+  opacity: 0.7;
 }
 
 a.blueLinedCTA {
@@ -63,4 +73,9 @@ a.blueLinedCTA {
   background-color: #FFFFFF;
   padding: 1.25vh 2vw;
   border: 0.25vh solid #0063C9;
+  transition: opacity 0.2s ease-in-out;
+}
+
+a.blueLinedCTA:hover {
+  opacity: 0.7;
 }/*# sourceMappingURL=style.css.map */

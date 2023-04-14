@@ -58,6 +58,11 @@ a.whiteCTA
     color: $blue !important;
     background-color: $white;
     padding: 1.5vh 2vw;
+    transition: opacity 0.2s ease-in-out;
+}
+a.whiteCTA:hover
+{
+    opacity: 0.7;
 }
 a.whiteLinedCTA
 {
@@ -65,6 +70,11 @@ a.whiteLinedCTA
     background-color: transparent;
     padding: 1.25vh 2vw;
     border: 0.25vh solid $white;
+    transition: opacity 0.2s ease-in-out;
+}
+a.whiteLinedCTA:hover
+{
+    opacity: 0.7;
 }
 a.blueLinedCTA
 {
@@ -72,4 +82,9 @@ a.blueLinedCTA
     background-color: $white;
     padding: 1.25vh 2vw;
     border: 0.25vh solid $blue;
+    transition: opacity 0.2s ease-in-out;
+}
+a.blueLinedCTA:hover
+{
+    opacity: 0.7;
 }

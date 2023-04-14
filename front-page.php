@@ -19,7 +19,7 @@
         <div class="callToAction">
             <a href="/contact" class="whiteCTA">Contact Us</a>
             <span></span>
-            <a href="/who-we-are" class="whiteLinedCTA">Learn More</a>
+            <a href="/about" class="whiteLinedCTA">Learn More</a>
         </div>
     </section>
 
@@ -54,7 +54,7 @@
             <p><?php echo $what['paragraph_1']?></p>
             <p><?php echo $what['paragraph_2']?></p>
             <div class="callToActionDiv">
-                <a href="/who-we-are" class="blueLinedCTA">Who We Are</a>
+                <a href="/about" class="blueLinedCTA">Who We Are</a>
             </div>
         </div>
     </section>

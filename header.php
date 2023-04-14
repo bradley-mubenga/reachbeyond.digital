@@ -30,7 +30,7 @@
         <div class="navbarLinks navbarLinksActive" id="navbarLinks">
             <ul>
                 <li>
-                    <a href="/who-we-are">Who We Are</a>
+                    <a href="/about">Who We Are</a>
                 </li>
                 <li class="dropDownMenu">
                     <a href="#" class="dropDownButton" id="dropDownButton">What We Do</a>
