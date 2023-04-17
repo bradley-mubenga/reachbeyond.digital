@@ -45,9 +45,12 @@
     </section>
 
     <section class="whatWeDoSection">
-        <div>
+        <div class="imagesDiv">
             <?php $image = $what['image']?>
             <img src="<?php echo esc_url($image['url'])?>" alt="<?php echo esc_attr($image['attr'])?>" class="responsiveImage"/>
+            <a href="https://www.google.com/partners/agency?id=7244730898" target="_blank">
+                <img src="https://www.gstatic.com/partners/badge/images/2023/PartnerBadgeClickable.svg"/>
+            </a>
         </div>
         <div>
             <h2><?php echo $what['heading']?></h2>

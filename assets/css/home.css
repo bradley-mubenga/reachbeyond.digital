@@ -71,6 +71,9 @@
   padding: 4vh 7vw;
   grid-gap: 2rem;
 }
+.whatWeDoSection div.imagesDiv {
+  text-align: center;
+}
 .whatWeDoSection div h2 {
   font-weight: bold !important;
   color: #0063C9;
